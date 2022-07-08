@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--week 1 assigment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags
+juan garcia
+juan4life1@live.com-->
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="code.js"></script>
+    <title>
+        juan garcia's uatspace page
+    </title>
+</head>
+<!--table to hold UAT space logo and header text-->
+<body>
+    <table>
+        <tr>
+            <td><img src="UATspaceLogo-2.jpg"></td>
+            <td>
+                <h1>
+                    UAT space program
+                </h1>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+<!--data table-->
+<table id="data" border="2" width="70%">
+    <col style="width: 35%">
+    <col style="width: 35%"> 
+    <thead>
+           <th>
+            Data type
+           </th>
+           <th>
+            Reading
+           </th>
+    </thead>
+    <tbody>
+        <!--table entry for seconds-->
+        <tr id="seconds">
+            <td>time elapsed</td>
+            <td>15 seconds</td>
+        </tr><!--table entry for latitude-->
+        <tr id="latitude">
+            <td>latitude</td>
+            <td>0</td>
+        </tr><!--table entry for longitude-->
+        <tr id="longitude">
+            <td>longitude</td>
+            <td>0</td>
+        </tr><!--table entry for gps_altitude-->
+        <tr id="gps_altitude">
+            <td>gps_altitude</td>
+            <td>0</td>
+        </tr><!--table entry for bmp_altitude-->
+        <tr id="bmp_altitude">
+            <td>bmp altitude:</td>
+            <td>30383.04</td>
+        </tr><!--table entry for bmp_pressure-->
+        <tr id="bmp_pressure">
+            <td>bmp pressure:</td>
+            <td>2.34</td>
+        </tr><!--table entry for bmp_temeprature-->
+        <tr id="bmp_temperature">
+            <td>bmp temperature:</td>
+            <td>0</td>
+        </tr><!--table entry for dig_temeprature-->
+        <tr id="dig_temprature">
+            <td>digital temperature:</td>
+            <td>24.12</td>
+        </tr><!--table entry for css_temeprature-->
+        <tr id="css_temprature">
+            <td>css temperature:</td>
+            <td>25</td>
+        </tr><!--table entry for css_eCO2-->
+        <tr id="css_eCO2">
+            <td>css eCO2:</td>
+            <td>400</td>
+        </tr><!--table entry for css_TVOC-->
+        <tr id="css_TVOC">
+            <td>CSS TVOC:</td>
+            <td>400</td>
+        </tr><!--table entry for UV-->
+        <tr id="UV">
+            <td>UV:</td>
+            <td>0</td>
+        </tr><!--table entry for accaelx-->
+        <tr id="accelx">
+            <td>accel x:</td>
+            <td>-0.87</td>
+        </tr><!--table entry for accaely-->
+        <tr id="accely">
+            <td>accel y:</td>
+            <td>0.02</td>
+        </tr><!--table entry for accaelz-->
+        <tr id="accelz">
+            <td>accel z:</td>
+            <td>9.61</td>
+        </tr><!--table entry for magenticx-->
+        <tr id="magneticx">
+            <td>Magnetic X:</td>
+            <td>0.13</td>
+        </tr><!--table entry for magenticY-->
+        <tr id="magneticy">
+            <td>Magnetic Y:</td>
+            <td>0.57</td>
+        </tr><!--table entry for magenticz-->
+        <tr id="magneticZ">
+            <td>Magnetic Z:</td>
+            <td>-0.24</td>
+        </tr><!--table enty for gyrox-->
+        <tr id="gyrox">
+            <td>Gyro X:</td>
+            <td>4.66</td>
+        </tr><!--table enty for gyroY-->
+        <tr id="gyroy">
+            <td>Gyro Y:</td>
+            <td>0.01</td>
+        </tr><!--table enty for gyroz-->
+        <tr id="gyroz">
+            <td>Gyro Z:</td>
+            <td>-0.4</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<button onclick="startfun();"class="button" id="startbutton">start</button>
+<button onclick="stopfun();" class="button"id="stopbutton">stop</button>
+<br>
+<!--the craps game is part of our UAT space program to test the brain funtion
+to see how it works due to long exposure in zero gravity and how will dose the brain 
+develops-->
+<h2>please try your hands at craps!</h2>
+<div id="crapsstatus">ctaps status</div><br>
+<button onclick="playcraps();"class="button">play craps</button><br>
+<br>
+<br>
+<h3>play space station sounds</h3>
+<h4>warning, it may get loud</h4>
+<button class="lgbutton" onclick="playstation();">play space station sounds</button>
+</html>
